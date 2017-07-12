@@ -1,17 +1,19 @@
-# Original Prusa i3 MK2 Firmware
+# Original Prusa i3 MK2 Firmware with End of Filament sensor enabled
 
 ## General instructions
 
-Pre-compiled hex output on PRUSA RESEARCH site: http://prusa3d.com/downloads/firmware/
+Pre-compiled hex output "Firmware-3.0.11a.hex"
 
-Just download and flash it to the electronics
+Download and flash it to the electronics
 
+Connect sensor to X MAX connection on Rambo Mini
 
 ## Build instructions
 
 ### Step 1
 
-Install arduino
+Install arduino environment
+https://github.com/aderusha/Get-PrusaFwDevEnv.git
 
 ### Step 2
 
