@@ -2096,7 +2096,7 @@ void process_commands()
 
         #ifdef FILAMENT_RUNOUT_SUPPORT
             
-            if(READ(FR_SENS)){
+            if(!READ(FR_SENS)){
 
                         feedmultiplyBckp=feedmultiply;
                         float target[4];
